@@ -9,9 +9,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My web site"
+title                    : "Data Science Recipes"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Cyprien Henry, PhD"
 description              : "An amazing website."
 url                      : "https://cyprienhenry.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : /mm # the subpath of your site, e.g. "/blog"
@@ -84,10 +84,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Cyprien HENRY, PhD"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "My bio goes here"
+  location         : "Paris, France"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
