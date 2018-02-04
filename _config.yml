@@ -120,6 +120,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _howtos
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
