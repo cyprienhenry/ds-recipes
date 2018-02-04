@@ -120,7 +120,7 @@ author:
 include:
   - .htaccess
   - _pages
-  - _howtos
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -240,10 +240,10 @@ compress_html:
   ignore:
     envs: development
 
-collections:
-  howtos:
-    output: true
-    permalink: /:collection/:path/
+#collections:
+#  howtos:
+#    output: true
+#    permalink: /:collection/:path/
 
 
 # Defaults
