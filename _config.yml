@@ -253,3 +253,8 @@ defaults:
       comments: # true
       share: true
       related: true
+      
+  collections:
+  howtos:
+    output: true
+    permalink: /:collection/:path/
