@@ -239,6 +239,11 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  howtos:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -253,8 +258,13 @@ defaults:
       comments: # true
       share: true
       related: true
-      
-  collections:
-  howtos:
-    output: true
-    permalink: /:collection/:path/
+  # _howtos
+  - scope:
+      path: ""
+      type: howtos
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true   
+
